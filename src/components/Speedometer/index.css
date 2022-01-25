@@ -1,0 +1,78 @@
+/* Write your CSS here */
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+
+.speedometer-bg-container {
+  background-color: #07080c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 30px;
+}
+.speedometer-main-heading {
+  color: #ffffff;
+  font-size: 36px;
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+}
+
+.speedometer-image {
+  width: 60%;
+}
+
+.speedometer-heading {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+.speedometer-description {
+  color: #cbd5e1;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 300;
+}
+.button {
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.accelerate-button {
+  color: #ffffff;
+  background-color: #0b69ff;
+}
+
+.apply-break-button {
+  color: #94a3b8;
+  background-color: transparent;
+  border: 1px solid #94a3b8;
+  margin-left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .speedometer-main-heading {
+    font-size: 46px;
+  }
+  .speedometer-image {
+    width: 70%;
+  }
+  .speedometer-heading {
+    font-size: 28px;
+  }
+  .speedometer-description {
+    font-size: 20px;
+  }
+}
